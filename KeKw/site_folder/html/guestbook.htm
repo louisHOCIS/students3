@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Kevin Kwok"/>
+        <meta name="keywords" content="CIS 241, final project, Final Project, HTML, 
+                    HTML5, CSS, CSS3, Kevin Kwok, homepage, index"/>
+        <meta name="description" content="This is the homepage of Kevin Kwok's CIS 241 Final Project."/>
+        <meta name="http-equiv" content="Kevin Kwok"/>
+        <meta name="robots" content="index">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="../css/myStyle.css">
+        <title>Guestbook - Kevin Kwok</title>
+    </head>
+
+    <body>
+   	 <header id="header_wrapper">
+        <div class="header_nav_bar">
+            <h1 class="header_top">Welcome to Kevin Kwok's<br />CIS 241 Webpage!</h1>
+                <div class="header_nav_buttons">
+                    <a href="home.htm" class="buttons">Homepage</a>
+                    <a href="resume.htm" class="buttons">Resume</a>
+                    <a href="guestbook.htm" class="buttons">Guestbook</a>
+                    <a href="interests.htm" class="buttons">Interests</a>
+                    <a href="reflections.htm" class="buttons">Reflections</a>				
+                </div>
+        </div>
+    </header> 
+        <div class="content">
+            <h2>Guestbook</h2>
+                <form class="content_form" method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+                   <br />
+                    Enter Your Name: <br />
+                        <input type="text" name="guest_name" size="30"/>
+                    <br />
+                    <br />
+                    How did you find my website? <br />
+                    <select name="guest_select_site_visibility" multiple="multiple" size="4">
+                        <option>On the Internet</option>
+                        <option>On college's Intranet</option>
+                        <option>Someone told me about you</option>
+                        <option>I'm your professor</option>                        
+                    </select>                    
+                    <br />
+                    <br />
+                    Add your personal website, and I'll be sure to visit.<br />
+                        <input type="text" name="guest_text_website" size="30" value="http://"/>
+                    <br/>
+                    <br/>                   
+                    Comments:<br/>
+                        <textarea name="guest_textarea_comments" cols="29" rows="3">Feel free to leave your comments here!</textarea>
+                    <br/>
+                    <br/>
+                    <input type="submit"/>
+                    <input type="reset"/>
+                    <br/>
+                    <br/>
+                </form>
+        </div>
+    <footer id="footer_wrapper_guestbook">
+        <div class="footer_nav_bar">             
+             <p class="footer_copyright">&copy; 2017 | 
+             Contact: <a href="mailto:k.kwok2892@edmail.edcc.edu">Email Address</a>
+             </p>
+         </div>
+    </footer>
+</body>
+</html>
